@@ -2,6 +2,9 @@
 .DS_Store
 Thumbs.db
 
+#Lockfiles
+package-lock.json
+
 # Downloadable modules
 node_modules/
 
