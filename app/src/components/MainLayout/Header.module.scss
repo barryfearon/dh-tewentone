@@ -3,3 +3,11 @@
 // and mixins are available to the modules.                                                      //
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 @import '../../global-styles/custom-bootstrap-variables';
+
+.dhNavBar {
+  background: $black;
+}
+
+.dhNavLink {
+  color: $white;
+}

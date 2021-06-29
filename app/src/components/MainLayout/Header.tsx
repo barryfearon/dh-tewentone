@@ -10,9 +10,9 @@ interface IHeaderProps {
 export const Header: React.FC<IHeaderProps> = ({ siteLogo }) => {
   return (
     <div>
-      <Navbar bg='light' expand='lg'>
+      <Navbar expand='lg' variant='dark' bg='primary' className={styles.dhNavBar}>
         <Navbar.Brand href='#home'>
-          <img data-src={siteLogo} loading='lazy' />
+          <img data-src={siteLogo} loading='lazy' height='50' />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>

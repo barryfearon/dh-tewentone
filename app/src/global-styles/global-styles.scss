@@ -1,2 +1,18 @@
 @import './custom-bootstrap-variables';
 @import '../../node_modules/bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Assistant&display=swap');
+
+body {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Alegreya', serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+h1 {
+}

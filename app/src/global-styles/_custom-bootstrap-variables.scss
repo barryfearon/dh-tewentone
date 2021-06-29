@@ -8,8 +8,17 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Just examples:
-$primary: #19bc9c;
-$secondary: #ed7164;
+$black: #000000;
+$dark-gray: #202020;
+$orange: #fd7e14;
+
+$primary: $black;
+$secondary: $dark-gray;
+$warning: $orange;
+
+$link-color: $warning;
+
+$enable-responsive-font-sizes: true;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // These are here so that this file alone can be imported into SCSS modules to make Bootstrap    //

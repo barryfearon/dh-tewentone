@@ -24,10 +24,20 @@ export const MainLayout: React.FC<IMainLayoutProps> = ({
       <Head>
         <title>{metaTitle || `${pageTitle || ''} | ${siteTitle || ''}`}</title>
       </Head>
-      <Header siteLogo='https://via.placeholder.com/90' />
-      <main className={styles.mainContent}>
-        <Container fluid={true}>{children}</Container>
+      <Header siteLogo='https://res.cloudinary.com/dark-horse-music/image/upload/v1508958400/logos/darkhorse-text-white_m4y0vw.svg' />
+      <div className={styles.dhIconRight}></div>
+      <main className={`${styles.mainContent} bg-secondary text-white`}>
+        <div className={`${styles.dhIconLeft}`}>
+          <img
+            src='https://res.cloudinary.com/dark-horse-music/image/upload/v1508958393/logos/darkhorse-artwork-black_jcuefn.svg'
+            alt='dh icon left'
+          />
+        </div>
+        <Container fluid={true} className={`${styles.mainContainer}`}>
+          {children}
+        </Container>
       </main>
+
       <Footer siteLogo='https://via.placeholder.com/90' />
     </>
   )
