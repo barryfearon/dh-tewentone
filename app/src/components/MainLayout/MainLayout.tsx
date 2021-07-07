@@ -26,7 +26,7 @@ export const MainLayout: React.FC<IMainLayoutProps> = ({
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WDSV6BC');`
           }}
-        ></script>
+        />
         <title>{metaTitle || `${pageTitle || ''} | ${siteTitle || ''}`}</title>
       </Head>
       <noscript
@@ -34,14 +34,19 @@ export const MainLayout: React.FC<IMainLayoutProps> = ({
           __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WDSV6BC" height="0" width="0"
       style="display:none;visibility:hidden"></iframe>`
         }}
-      ></noscript>
+      />
       <Header siteLogo='https://res.cloudinary.com/dark-horse-music/image/upload/v1508958400/logos/darkhorse-text-white_m4y0vw.svg' />
-      <div className={styles.dhIconRight}></div>
       <main className={`${styles.mainContent} bg-secondary text-white`}>
         <div className={`${styles.dhIconLeft}`}>
           <img
             src='https://res.cloudinary.com/dark-horse-music/image/upload/v1508958393/logos/darkhorse-artwork-black_jcuefn.svg'
             alt='dh icon left'
+          />
+        </div>
+        <div className={`${styles.dhIconRight} d-none d-lg-block`}>
+          <img
+            src='https://res.cloudinary.com/dark-horse-music/image/upload/v1508958393/logos/darkhorse-artwork-black_jcuefn.svg'
+            alt='dh icon right'
           />
         </div>
         <Container fluid={true} className={`${styles.mainContainer}`}>

@@ -3,12 +3,12 @@ import { NextPage } from 'next'
 import MainLayout from '../components/MainLayout/MainLayout'
 
 const About: NextPage = () => (
-  <MainLayout>
-    <div className='row justify-content-center'>
+  <MainLayout siteTitle='Dark Horse Music - Isle of Man' pageTitle='About Us'>
+    <div className='row justify-content-center vh-100'>
       <div className='col-md-10'>
         <div className='row'>
           <div className='col-md-6'>
-            <h3 className='widget-title mb-2'>SO WHATS IT ALL ABOUT..?</h3>
+            <h3 className='widget-title mb-4'>SO WHATS IT ALL ABOUT..?</h3>
             <p>
               The Dark Horse Isle of Man Music Festival is all about celebrating the Isle of Man
               music festival, arts and culture scene and is now in it’s fourth year. We plan to
@@ -37,7 +37,7 @@ const About: NextPage = () => (
             </p>
           </div>
           <div className='col-md-6'>
-            <h2>Isle of Man Music Festival</h2>
+            <h2 className='mb-4'>Isle of Man Music Festival</h2>
             <p>
               Live musicians and DJs – from both the&nbsp;Isle of Man music festival scene and the
               UK are being booked as we speak…
@@ -64,11 +64,6 @@ const About: NextPage = () => (
               decorations; the campfire and everything else in our power to make it a very special
               time.
             </p>
-            <div className='text-center'>
-              <a className='btn btn-success' href='/please-keep-our-green-site-clean/'>
-                Our Green Site
-              </a>
-            </div>
           </div>
         </div>
       </div>

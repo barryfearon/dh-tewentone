@@ -8,11 +8,13 @@ body {
   font-weight: 400;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: 'Alegreya', serif;
-  font-weight: 500;
-  font-size: 2.5rem;
 }
 
-h1 {
+ol li {
+  line-height: 2rem;
+  margin-bottom: 1rem;
 }

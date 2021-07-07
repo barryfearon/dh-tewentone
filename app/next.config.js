@@ -53,7 +53,8 @@ const nextConfig = {
       },
       {
         // Never caches CORS tracking requests.
-        urlPattern: /(?:^https:\/\/.+\.facebook\.com)|(?:^https:\/\/.+\.facebook\.net)|(?:^https:\/\/static\.ads-twitter\.com)|(?:^https:\/\/t\.co\/)|(?:^https:\/\/www\.google-analytics\.com)|(?:^https:\/\/analytics\.twitter\.com)/i,
+        urlPattern:
+          /(?:^https:\/\/.+\.facebook\.com)|(?:^https:\/\/.+\.facebook\.net)|(?:^https:\/\/static\.ads-twitter\.com)|(?:^https:\/\/t\.co\/)|(?:^https:\/\/www\.google-analytics\.com)|(?:^https:\/\/analytics\.twitter\.com)/i,
         handler: 'NetworkOnly',
         options: {
           cacheName: 'trackingScripts',
@@ -89,3 +90,10 @@ const nextConfig = {
 }
 
 module.exports = withOffline(nextConfig)
+
+module.exports = {
+  generateBuildId: async () => {
+    // You can, for example, get the latest git commit hash here
+    return 'darkhorse-build'
+  }
+}
