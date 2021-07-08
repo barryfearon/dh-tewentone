@@ -18,7 +18,7 @@ const Home: NextPage = () => (
               <p className='card-text'>Baad Acid</p>
               <p className='card-text'>Long Tall Shakies</p>
               <p className='card-text'>El Catraz</p>
-              <p className='card-text'>No one Died</p>
+              <p className='card-text'>No One Died</p>
             </Card.Body>
           </Card>
           <Card className='bg-transparent text-center'>
@@ -44,7 +44,8 @@ const Home: NextPage = () => (
 
               <p className='card-text'>The Brass Machine</p>
 
-              <p className='card-text'>More TBC</p>
+              <p className='card-text'>Jambareef</p>
+              <p className='card-text'>Clash Vooar</p>
             </div>
           </Card>
         </CardDeck>
@@ -56,7 +57,6 @@ const Home: NextPage = () => (
               <p className='card-text'>Volume</p>
               <p className='card-text'>Dizzy Disco</p>
               <p className='card-text'>GOMH</p>
-              <p className='card-text'>More TBC</p>
             </div>
           </Card>
           <Card className=' bg-transparent text-center'>
