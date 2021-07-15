@@ -11,4 +11,8 @@
 
 .dhNavLink {
   color: $white;
+  padding: 0.5rem 0.8rem;
+  &:hover {
+    text-decoration: none;
+  }
 }

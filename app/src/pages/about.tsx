@@ -4,8 +4,9 @@ import MainLayout from '../components/MainLayout/MainLayout'
 
 const About: NextPage = () => (
   <MainLayout siteTitle='Dark Horse Music - Isle of Man' pageTitle='About Us'>
-    <div className='row justify-content-center vh-100'>
-      <div className='col-12 col-sm-10 col-md-8 col-lg-6'>
+    <div className='row justify-content-center'>
+      <div className='col-12 col-sm-10 col-md-8 col-lg-6 mb-5'>
+        <h1 className='text-center mb-4 text-white'>About Dark Horse</h1>
         <h3 className='widget-title mb-4'>SO WHATS IT ALL ABOUT..?</h3>
         <p>
           The Dark Horse Isle of Man Music Festival is all about celebrating the Isle of Man music

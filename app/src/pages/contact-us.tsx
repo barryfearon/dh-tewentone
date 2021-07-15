@@ -5,14 +5,8 @@ import MainLayout from '../components/MainLayout/MainLayout'
 const Contact: NextPage = () => (
   <MainLayout siteTitle='Dark Horse Music - Isle of Man' pageTitle='Contact Us'>
     <div className='row justify-content-center vh-100'>
-      <div className='col-sm-12 col-md-8 col-lg-6'>
+      <div className='col-sm-12 col-md-8 col-lg-4'>
         <h1 className='text-center text-white mb-4'>Contact Form</h1>
-        <div className='text-center'>
-          <a className='btn btn-success btn-lg' href='tel:00447624304097'>
-            Call 07624 304097
-          </a>
-        </div>
-
         <h5 className='my-4 text-center'>
           Please use the form below to send us a message. We will usually respond within 24hrs.
         </h5>
@@ -23,7 +17,7 @@ const Contact: NextPage = () => (
           </div>
           <div className='form-group'>
             <label htmlFor='FormControlTextarea1'>Message</label>
-            <textarea className='form-control' id='FormControlTextarea1' name='message' />
+            <textarea className='form-control' id='FormControlTextarea1' name='message' rows={5} />
           </div>
           <div className='text-right'>
             <button type='submit' className='btn btn-danger btn-lg'>

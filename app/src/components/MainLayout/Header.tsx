@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { Navbar, Nav } from 'react-bootstrap'
 
 import styles from './Header.module.scss'
@@ -17,11 +18,21 @@ export const Header: React.FC<IHeaderProps> = ({ siteLogo }) => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mr-auto'>
-            <Nav.Link href='/'>Home</Nav.Link>
-            <Nav.Link href='tickets'>Tickets</Nav.Link>
-            <Nav.Link href='about'>About Us</Nav.Link>
-            <Nav.Link href='green-site'>Green Site Info</Nav.Link>
-            <Nav.Link href='contact-us'>Contact Us</Nav.Link>
+            <Link href='/'>
+              <a className={styles.dhNavLink}>Home</a>
+            </Link>
+            <Link href='tickets'>
+              <a className={styles.dhNavLink}>Tickets</a>
+            </Link>
+            <Link href='about'>
+              <a className={styles.dhNavLink}>About Us</a>
+            </Link>
+            <Link href='green-site'>
+              <a className={styles.dhNavLink}>Green Site Info</a>
+            </Link>
+            <Link href='contact-us'>
+              <a className={styles.dhNavLink}>Contact Us</a>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -13,12 +13,12 @@ const Tickets: NextPage = () => (
     <h2 className='text-center text-danger my-4'>2021 tickets have now sold out</h2>
 
     <div className='row justify-content-center'>
-      <div className='col-10'>
+      <div className='col-10 mb-5'>
         <p className='text-center mb-4'>
           <a
             href='https://www.tickettailor.com/events/darkhorsemusic/317610/'
             target='_blank'
-            className='btn btn-outline-success btn-lg'
+            className='btn btn-outline-danger btn-lg'
             rel='nofollow noopener'
           >
             Click here to enter access codes

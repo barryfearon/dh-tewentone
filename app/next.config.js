@@ -2,6 +2,11 @@ const withOffline = require('next-offline')
 
 const nextConfig = {
   // generateInDevMode: true,
+  generateBuildId: async () => {
+    // You can, for example, get the latest git commit hash here
+    return 'darkhorse-build'
+  },
+  trailingSlash: true,
   workboxOpts: {
     swDest: process.env.NEXT_EXPORT ? 'service-worker.js' : 'static/service-worker.js',
     maximumFileSizeToCacheInBytes: 10485760, // Caches files of up to 10MB.
@@ -90,10 +95,3 @@ const nextConfig = {
 }
 
 module.exports = withOffline(nextConfig)
-
-module.exports = {
-  generateBuildId: async () => {
-    // You can, for example, get the latest git commit hash here
-    return 'darkhorse-build'
-  }
-}
