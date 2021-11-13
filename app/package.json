@@ -1,7 +1,7 @@
 {
   "name": "darkhorse-twentyone",
   "version": "0.0.1",
-  "description": "Dark Horse 2021 website",
+  "description": "Dark Horse 2022 website",
   "repository": "https://github.com/barryfearon/dh-tewentone.git",
   "browser": "out/index.html",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "author": {
     "email": "barry@darkhorsemusic.im",
-    "name": "Felipe Ceotto"
+    "name": "Barry Fearon"
   },
   "license": "UNLICENSED",
   "devDependencies": {

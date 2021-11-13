@@ -15,31 +15,57 @@ const Terms: NextPage = () => (
 
         <ol>
           <li>No admission without a ticket.</li>
-          <li>Tickets are non-transferable.</li>
           <li>
-            The event opens to the public on the <strong>24th July 2020</strong> at{' '}
+            <ol>
+              <li>Tickets are can be transfered but only by the owner of the existing ticket.</li>
+              <li>
+                The email requesting the transfer must be from the email address that the original
+                ticket was purchased from.
+              </li>
+              <li>
+                You will be required to send full details of the proposed new owner - Full name;
+                Address &amp; Email address, to:
+              </li>
+              <li>
+                <a href='mailto:tickets@darkhorsemusic.im'>tickets@darkhorsemusic.im</a>.
+              </li>
+              <li>
+                The new owner will then be sent a form to complete, confirming that they have read
+                and understand the Dark Horse Limited terms and conditions
+              </li>
+              <li>
+                On completeion, the new owner will be sent a copy of the updated ticket to the new
+                email address provided.
+              </li>
+              <li>
+                The cut off date for transfers is midnight, 7 days prior to the event start date
+              </li>
+            </ol>
+          </li>
+          <li>
+            The event opens to the public on the <strong>22nd July 2022</strong> at{' '}
             <strong>12:00.</strong>
           </li>
           <li>
-            The event will end on the <strong>26th July 2020</strong> at <strong>22:00.</strong>
+            The event will end on the <strong>24th July 2022</strong> at <strong>22:00.</strong>
           </li>
           <li>
             Camping is included as part of the ticket price for the nights of the{' '}
-            <strong>24th </strong>and<strong> 25th </strong>and<strong> 26th </strong>of
-            <strong> July 2020 </strong>only. An extra charge will be incurred if participants
+            <strong>22nd </strong>and<strong> 23rd </strong>and<strong> 24th </strong>of
+            <strong> July 2022 </strong>only. An extra charge will be incurred if participants
             remain on the campsite and are still found to be on the site after&nbsp;the&nbsp;
-            <strong>27th July</strong> <strong>2020</strong> or later.
+            <strong>25th July</strong> <strong>2022</strong> or later.
           </li>
           <li>
             Live in Vehicles/Trailer Tents/Caravans etc. can only camp in the designated campsite
-            and having entered the site cannot leave until the&nbsp;<strong>26th July 2020</strong>{' '}
+            and having entered the site cannot leave until the&nbsp;<strong>24th July 2022</strong>{' '}
             when stewards will be available to direct the flow of traffic.
           </li>
           <li>
             All Live in Vehicles/Trailer Tents &amp; Caravans etc. will{' '}
             <strong>
-              only be allowed onto the campsite between 12:00 and 20:00 on Friday the 24th July 2020
-              &amp; between 10:00 and 12:00 on Saturday the 25th July 2020
+              only be allowed onto the campsite between 12:00 and 20:00 on Friday the 22nd July 2022
+              &amp; between 10:00 and 12:00 on Saturday the 23rd July 2022
             </strong>
             . After these times all vehicles will be required to be parked in the car parking or
             camping vehicle areas.
@@ -50,8 +76,8 @@ const Terms: NextPage = () => (
           </li>
           <li>
             The use of the campsite is available to Dark Horse ticket holders from{' '}
-            <strong>12 noon Friday 24th July 2020</strong>&nbsp;until{' '}
-            <strong>10am Monday 27th July 2020</strong>.
+            <strong>12 noon Friday 22nd July 2022</strong>&nbsp;until{' '}
+            <strong>10am Monday 25th July 2022</strong>.
           </li>
           <li>
             Anyone found have left their litter, after the event, which requires the Dark Horse
@@ -90,7 +116,7 @@ const Terms: NextPage = () => (
             adult. A maximum of 2 children under 12 per adult.
           </li>
           <li>
-            Photo ID regarding the age of adults and children attending may be requested at the box
+            Photo ID regarding the age of adults and children attending will be requested at the box
             office.
           </li>
           <li>Dogs are allowed on the site but must be on a lead and restrained at all times.</li>
@@ -104,8 +130,8 @@ const Terms: NextPage = () => (
             Trespassing on adjoining private property will result in expulsion from the event.
           </li>
           <li>
-            No unauthorised recordings of the event. All images and sound recordings remain the
-            property of Dark Horse Music Ltd.
+            No unauthorised recordings of the event. All images, videos and sound recordings remain
+            the property of Dark Horse Music Ltd.
           </li>
           <li>Cameras for personal use are allowed.</li>
           <li>

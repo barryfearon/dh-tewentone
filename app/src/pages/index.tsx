@@ -21,7 +21,6 @@ const Home: NextPage = () => (
               <Card.Title style={{ fontSize: '2rem' }}>Friday 23rd July</Card.Title>
               <p className='card-text'>Baad Acid</p>
               <p className='card-text'>Long Tall Shakies</p>
-              <p className='card-text'>El Catraz</p>
               <p className='card-text'>No One Died</p>
             </Card.Body>
           </Card>
@@ -32,19 +31,19 @@ const Home: NextPage = () => (
               <p className='card-text'>Dusty Plankton</p>
               <p className='card-text'>Mad Daddy</p>
               <p className='card-text'>Ballaghs</p>
-              <p className='card-text'>Motherfunkers</p>
+              <p className='card-text'>The Fecktones</p>
               <p className='card-text'>Parallel Lines</p>
-              <p className='card-text'>A Stones Throw</p>
+              <p className='card-text'>Sanssouci</p>
               <p className='card-text'>SoundCheck</p>
             </Card.Body>
           </Card>
           <Card className='card bg-transparent text-center'>
             <Card.Body>
               <Card.Title style={{ fontSize: '2rem' }}>Sunday 25th July</Card.Title>
-              <p className='card-text'>DC/AC</p>
-              <p className='card-text'>Porn Monkey</p>
-              <p className='card-text'>The Brass Machine</p>
-              <p className='card-text'>Sansoucci</p>
+              <p className='card-text'>Han FX</p>
+              <p className='card-text'>Brass Machine</p>
+              <p className='card-text'>Nathan Thompson</p>
+              <p className='card-text'>The Nelson Touch</p>
               <p className='card-text'>Clash Vooar</p>
             </Card.Body>
           </Card>
@@ -69,9 +68,9 @@ const Home: NextPage = () => (
               <p className='card-text'>Mother Funkers</p>
               <p className='card-text'>Jason Thomas</p>
               <p className='card-text'>JC Stormz</p>
-              <p className='card-text'>Sansoucci</p>
               <p className='card-text'>Paddy Rantin</p>
-              <p className='card-text'>A Stones Throw</p>
+              <p className='card-text'>Jambareef</p>
+              <p className='card-text'>Lewis Parker</p>
             </Card.Body>
           </Card>
           <Card className=' bg-transparent text-center'>
@@ -102,9 +101,8 @@ const Home: NextPage = () => (
               <Card.Title style={{ fontSize: '2rem' }}>Saturday 24th July</Card.Title>
 
               <p className='card-text'>Persian Doormats</p>
-              <p className='card-text'>El Catraz</p>
               <p className='card-text'>Baad Acid</p>
-              <p className='card-text'>Parralel Lines</p>
+              <p className='card-text'>Parallel Lines</p>
               <p className='card-text'>13th Pillar</p>
               <p className='card-text'>Stones Throw</p>
               <p className='card-text'>Jo &amp; Juan</p>
