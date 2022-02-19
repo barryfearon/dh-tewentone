@@ -8,23 +8,36 @@ const Tickets: NextPage = () => (
     <h3 className='text-center'>
       Dark Horse Music 2021 – The Night Circus
       <br />
-      July 23rd, 24th, 25th
+      July 22nd, 23th, 24th
     </h3>
     <h2 className='text-center text-danger my-4'>2021 tickets have now sold out</h2>
 
     <div className='row justify-content-center'>
       <div className='col-10 mb-5'>
-        <p className='text-center mb-4'>
-          <a
-            href='https://www.tickettailor.com/events/darkhorsemusic/317610/'
-            target='_blank'
-            className='btn btn-outline-danger btn-lg'
-            rel='nofollow noopener'
-          >
-            Click here to enter access codes
-          </a>
-          <br />
-        </p>
+        <div className='d-flex justify-content-center'>
+          <div className='tt-widget'>
+            <div className='tt-widget-fallback text-center'>
+              <p>
+                <a
+                  href='https://www.tickettailor.com/all-tickets/darkhorsemusic/?ref=website_widget'
+                  target='_blank'
+                >
+                  Click here to buy tickets
+                </a>
+              </p>
+            </div>
+            <script
+              src='https://cdn.tickettailor.com/js/widgets/min/widget.js'
+              data-url='https://www.tickettailor.com/all-tickets/darkhorsemusic/'
+              data-type='inline'
+              data-inline-minimal='true'
+              data-inline-show-logo='false'
+              data-inline-bg-fill='false'
+              data-inline-inherit-ref-from-url-param=''
+              data-inline-ref='website_widget'
+            />
+          </div>
+        </div>
         <h4 className='text-center mb-4'>Simple Festival Facts</h4>
         <div className='row justify-content-center mb-4'>
           <div className='col-12 col-md-8'>

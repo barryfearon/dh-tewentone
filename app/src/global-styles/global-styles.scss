@@ -4,9 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Assistant&display=swap');
 
 body {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-family: 'Assistant', sans-serif;
   font-weight: 400;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1.2rem;
+  }
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 8px #000000;
 }
 
 h1,
@@ -18,4 +26,27 @@ h3 {
 ol li {
   line-height: 2rem;
   margin-bottom: 1rem;
+}
+
+.dhLogo {
+  position: relative;
+  text-align: center;
+
+  @include media-breakpoint-up(lg) {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 155px;
+  }
+}
+
+.backBtn {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}
+
+.dh-content {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
 }

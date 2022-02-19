@@ -15,7 +15,7 @@ const About: NextPage = () => (
           activities, workshops and stalls for the mind, body, soul, eardrums and taste buds.
         </p>
         <p>
-          It’s <b>happening </b>over the weekend of July 23, 24, 25, at the same beautiful location
+          It’s <b>happening </b>over the weekend of July 22, 23, 24, at the same beautiful location
           –
           <a href='http://sillymooscampsite.co.uk/' target='_blank' rel='noopener noreferrer'>
             Silly Moos Campsite, Ballakillingan Farm, Ramsey

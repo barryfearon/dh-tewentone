@@ -35,26 +35,12 @@ export const MainLayout: React.FC<IMainLayoutProps> = ({
       style="display:none;visibility:hidden"></iframe>`
         }}
       />
-      <Header siteLogo='https://res.cloudinary.com/dark-horse-music/image/upload/v1508958400/logos/darkhorse-text-white_m4y0vw.svg' />
-      <main className={`${styles.mainContent} bg-secondary text-white`}>
-        <div className={`${styles.dhIconLeft}`}>
-          <img
-            src='https://res.cloudinary.com/dark-horse-music/image/upload/v1508958393/logos/darkhorse-artwork-black_jcuefn.svg'
-            alt='dh icon left'
-          />
-        </div>
-        <div className={`${styles.dhIconRight} d-none d-lg-block`}>
-          <img
-            src='https://res.cloudinary.com/dark-horse-music/image/upload/v1508958393/logos/darkhorse-artwork-black_jcuefn.svg'
-            alt='dh icon right'
-          />
-        </div>
+      <main className={`${styles.mainContent} bg-black text-white`}>
         <Container fluid={true} className={`${styles.mainContainer}`}>
           {children}
         </Container>
+        <Footer siteLogo='https://res.cloudinary.com/dark-horse-music/image/upload/v1508958400/logos/darkhorse-text-white_m4y0vw.svg' />
       </main>
-
-      <Footer siteLogo='https://via.placeholder.com/90' />
     </>
   )
 }

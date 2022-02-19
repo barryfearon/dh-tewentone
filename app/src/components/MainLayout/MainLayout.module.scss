@@ -5,43 +5,8 @@
 @import '../../global-styles/custom-bootstrap-variables';
 
 .mainContent {
-  background-color: $white;
-  padding-top: 2rem;
+  background: #000000;
 }
-
 .mainContainer {
   position: relative;
-}
-
-.dhIconLeft {
-  position: fixed;
-  top: 90px;
-  left: 0;
-  z-index: 0;
-  width: 100%;
-
-  @include media-breakpoint-up(lg) {
-    width: 50%;
-  }
-
-  @include media-breakpoint-up(xl) {
-    width: 35%;
-  }
-}
-
-.dhIconRight {
-  position: fixed;
-  top: 90px;
-  right: 0;
-  z-index: 0;
-  width: 100%;
-  transform: scaleX(-100%);
-
-  @include media-breakpoint-up(lg) {
-    width: 50%;
-  }
-
-  @include media-breakpoint-up(xl) {
-    width: 35%;
-  }
 }
