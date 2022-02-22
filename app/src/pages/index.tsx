@@ -1,7 +1,6 @@
 import { NextPage } from 'next'
 import Link from 'next/link'
-import Image from 'next/image'
-import { Row, Col, CardDeck, Card } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 
 import MainLayout from '../components/MainLayout/MainLayout'
 import styles from './index.module.scss'
@@ -9,13 +8,18 @@ import styles from './index.module.scss'
 const Home: NextPage = () => (
   <MainLayout siteTitle='Dark Horse Music - Isle of Man' pageTitle='Home'>
     <div className={styles.backgroundImage}>
-      <Image src='/images/wonderland-bg.jpg' width={2160} height={1080} />
+      <img src='https://res.cloudinary.com/dark-horse-music/image/upload/v1645473638/background%20images/wonderland-bg.jpg' />
     </div>
     <Row className={`${styles.hpContent} justify-content-center`}>
       <Col className='col-sm-10 col-lg-8 pt-5 d-flex justify-content-center flex-column'>
         <div>
           <div className='dhLogo'>
-            <Image src='/images/logo-twenty-two.svg' width={447} height={373} />
+            <img
+              src='https://res.cloudinary.com/dark-horse-music/image/upload/v1645472154/logos/logo-twenty-two.svg'
+              width='447'
+              height='373'
+              className='img-fluid'
+            />
           </div>
           <div className='mb-5'>
             <h1 className='text-center mb-4 display-3 text-shadow'>Dark Horse 2022</h1>
@@ -51,8 +55,13 @@ const Home: NextPage = () => (
             </div>
           </div>
         </div>
-        <div className='wonderlandText d-flex justify-content-center'>
-          <Image src='/images/wonderland-text.png' width={482} height={148} />
+        <div className='wonderlandText'>
+          <img
+            src='https://res.cloudinary.com/dark-horse-music/image/upload/v1645472203/logos/wonderland-text.png'
+            width='959'
+            height='294'
+            className='img-fluid'
+          />
         </div>
       </Col>
     </Row>

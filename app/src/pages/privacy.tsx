@@ -1,6 +1,5 @@
 import { NextPage } from 'next'
 import Link from 'next/link'
-import Image from 'next/image'
 import { Row, Col } from 'react-bootstrap'
 
 import styles from './privacy.module.scss'
@@ -13,7 +12,12 @@ const Privacy: NextPage = () => (
       <Col className='col-sm-10 col-lg-8 pt-5 d-flex justify-content-between flex-column'>
         <div>
           <div className='dhLogo'>
-            <Image src='/images/logo-twenty-two.svg' width={447} height={373} />
+            <img
+              src='https://res.cloudinary.com/dark-horse-music/image/upload/v1645472154/logos/logo-twenty-two.svg'
+              width='447'
+              height='373'
+              className='img-fluid'
+            />
           </div>
           <div className='backBtn'>
             <Link href='/'>
@@ -22,7 +26,7 @@ const Privacy: NextPage = () => (
           </div>
           <div className='dh-content'>
             <h1 className='text-center mb-4 display-3'>Dark Horse 2022</h1>
-            <h2 className='mb-4'>Introduction</h2>
+            <h2 className='mb-4'>Privacy Policy</h2>
             <p>
               This policy sets out how we collect, process and hold your personal data if you visit
               our event ticket shop or otherwise provide personal data to us. We are Dark Horse

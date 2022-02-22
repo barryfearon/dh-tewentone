@@ -1,6 +1,5 @@
 import { NextPage } from 'next'
 import Link from 'next/link'
-import Image from 'next/image'
 import { Row, Col } from 'react-bootstrap'
 
 import styles from './privacy.module.scss'
@@ -13,7 +12,12 @@ const Terms: NextPage = () => (
       <Col className='col-sm-10 col-lg-8 pt-5 d-flex justify-content-between flex-column'>
         <div>
           <div className='dhLogo'>
-            <Image src='/images/logo-twenty-two.svg' width={447} height={373} />
+            <img
+              src='https://res.cloudinary.com/dark-horse-music/image/upload/v1645472154/logos/logo-twenty-two.svg'
+              width='447'
+              height='373'
+              className='img-fluid'
+            />
           </div>
           <div className='backBtn'>
             <Link href='/'>

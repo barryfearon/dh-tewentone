@@ -33,9 +33,9 @@ ol li {
   text-align: center;
 
   @include media-breakpoint-up(lg) {
-    position: fixed;
-    top: 15px;
-    left: 15px;
+    position: relative;
+    top: 0;
+    left: 0;
     width: 155px;
   }
 }
