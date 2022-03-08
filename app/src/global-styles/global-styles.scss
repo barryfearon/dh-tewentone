@@ -29,8 +29,7 @@ ol li {
 }
 
 .dhLogo {
-  position: relative;
-  text-align: center;
+  width: 296px;
 
   @include media-breakpoint-up(lg) {
     position: relative;

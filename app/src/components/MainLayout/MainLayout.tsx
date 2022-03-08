@@ -39,7 +39,7 @@ export const MainLayout: React.FC<IMainLayoutProps> = ({
         <Container fluid={true} className={`${styles.mainContainer}`}>
           {children}
         </Container>
-        <Footer siteLogo='https://res.cloudinary.com/dark-horse-music/image/upload/v1508958400/logos/darkhorse-text-white_m4y0vw.svg' />
+        <Footer siteLogo='' />
       </main>
     </>
   )
