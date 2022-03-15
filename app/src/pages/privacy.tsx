@@ -1,6 +1,7 @@
 import { NextPage } from 'next'
 import Link from 'next/link'
 import { Row, Col } from 'react-bootstrap'
+import Header from '../components/MainLayout/Header'
 
 import styles from './privacy.module.scss'
 
@@ -8,22 +9,10 @@ import MainLayout from '../components/MainLayout/MainLayout'
 
 const Privacy: NextPage = () => (
   <MainLayout siteTitle='Dark Horse Music - Isle of Man' pageTitle='Privacy'>
+    <Header siteLogo={''} />
     <Row className='justify-content-center'>
-      <Col className='col-sm-10 col-lg-8 pt-5 d-flex justify-content-between flex-column'>
+      <Col className='col-sm-10 col-lg-8 d-flex justify-content-between flex-column'>
         <div>
-          <div className='dhLogo'>
-            <img
-              src='https://res.cloudinary.com/dark-horse-music/image/upload/v1645472154/logos/logo-twenty-two.svg'
-              width='447'
-              height='373'
-              className='img-fluid'
-            />
-          </div>
-          <div className='backBtn'>
-            <Link href='/'>
-              <a className='btn btn-outline-danger text-white'>Home Page</a>
-            </Link>
-          </div>
           <div className='dh-content'>
             <h1 className='text-center mb-4 display-3'>Dark Horse 2022</h1>
             <h2 className='mb-4'>Privacy Policy</h2>

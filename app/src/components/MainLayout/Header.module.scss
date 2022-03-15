@@ -4,15 +4,13 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 @import '../../global-styles/custom-bootstrap-variables';
 
-.dhNavBar {
-  background: $black;
-  z-index: 1;
-}
+.MainNav {
+  display: none;
 
-.dhNavLink {
-  color: $white;
-  padding: 0.5rem 0.8rem;
-  &:hover {
-    text-decoration: none;
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 15px;
   }
 }

@@ -2,7 +2,6 @@
 
 .backgroundImage {
   position: fixed;
-  opacity: 0.5;
   top: 0;
   bottom: 0;
   left: 0;
@@ -23,7 +22,6 @@
 
   @include media-breakpoint-up(lg) {
     opacity: 1;
-    height: 100vh;
   }
 
   > img {
@@ -35,10 +33,6 @@
 
 .dhHomepageContent {
   height: 100%;
-
-  @include media-breakpoint-up(lg) {
-    height: 100vh;
-  }
 }
 
 .wonderlandText {

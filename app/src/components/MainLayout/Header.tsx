@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { Navbar, Nav } from 'react-bootstrap'
+import { Col, Row, Nav } from 'react-bootstrap'
 
 import styles from './Header.module.scss'
 
@@ -10,33 +10,31 @@ interface IHeaderProps {
 
 export const Header: React.FC<IHeaderProps> = ({ siteLogo }) => {
   return (
-    <div>
-      <Navbar expand='lg' variant='dark' bg='primary' className={styles.dhNavBar}>
-        <Navbar.Brand href='/'>
-          <img data-src={siteLogo} loading='lazy' height='50' />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls='basic-navbar-nav' />
-        <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav className='mr-auto'>
-            <Link href='/'>
-              <a className={styles.dhNavLink}>Home</a>
-            </Link>
-            <Link href='tickets'>
-              <a className={styles.dhNavLink}>Tickets</a>
-            </Link>
-            <Link href='about'>
-              <a className={styles.dhNavLink}>About Us</a>
-            </Link>
-            <Link href='green-site'>
-              <a className={styles.dhNavLink}>Green Site Info</a>
-            </Link>
-            <Link href='contact-us'>
-              <a className={styles.dhNavLink}>Contact Us</a>
-            </Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    </div>
+    <Row className='justify-content-center'>
+      <Col sm={10} lg={2} className='pt-3 d-flex flex-column align-items-center'>
+        <div className='dhLogo'>
+          <a href='/' className='stretched-link btn-link'>
+            <img
+              src='https://res.cloudinary.com/dark-horse-music/image/upload/v1645472154/logos/logo-twenty-two.svg'
+              width='447'
+              height='373'
+              className='img-fluid'
+            />
+          </a>
+        </div>
+      </Col>
+      <div className={styles.MainNav}>
+        <Link href='/'>
+          <a className='btn btn-outline-danger text-white mx-2'>Home Page</a>
+        </Link>
+        <Link href='/lineup'>
+          <a className='btn btn-outline-danger text-white mx-2'>Dark Star Barn</a>
+        </Link>
+        <Link href='/festival-facts'>
+          <a className='btn btn-outline-danger text-white mx-2'>Festival Facts</a>
+        </Link>
+      </div>
+    </Row>
   )
 }
 

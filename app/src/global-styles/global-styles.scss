@@ -39,13 +39,39 @@ ol li {
   }
 }
 
-.backBtn {
-  position: absolute;
-  top: 30px;
-  right: 15px;
+.logoContainer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  .artist-logo {
+    width: 200px;
+  }
 }
 
 .dh-content {
   margin-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.card {
+  .card-title {
+    h2 {
+      text-shadow: 1px 1px 4px black;
+      text-align: center;
+    }
+  }
+}
+
+.hp-image-nav {
+  .card {
+    border-radius: 20px;
+    background: #000000;
+
+    .card-img {
+      border-radius: 20px;
+      opacity: 0.5;
+    }
+  }
 }
